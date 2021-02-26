@@ -1,11 +1,11 @@
-# bravo-raspberrypi-demo
+# Bravo Board - Raspberry Pi demo
 
 A simple demonstrator showing communication between the Bravo board and a Raspberry Pi device
 
 
 ## HW SETTINGS
 
- - Connect the Bravo board with the Raspberry Pi using the previously soldered Berg connectors(as reported in the [Bravo Quick Start Guide](https://y1cj3stn5fbwhv73k0ipk1eg-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/Telit_Bravo_Quick_Start_Guide_r1.pdf) )
+ - Connect the Bravo board with the Raspberry Pi using the previously soldered Berg connectors (as reported in the [Bravo Quick Start Guide](https://y1cj3stn5fbwhv73k0ipk1eg-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/Telit_Bravo_Quick_Start_Guide_r1.pdf) )
 
 ![datei](./berg_connectors.PNG)
 
