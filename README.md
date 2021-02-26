@@ -23,12 +23,11 @@ A simple demonstrator showing communication between the Bravo board and a Raspbe
 
 
 
-
 ## SW SETTINGS
 
 - Download the necessary files on a Directory in the Raspberry Pi (for example, in the Desktop folder as "Desktop/Bravo_Project")
 
-    - Bravo_PORT.py
+    - Bravo_demo.py
 
     - settings.py
 
@@ -41,7 +40,7 @@ A simple demonstrator showing communication between the Bravo board and a Raspbe
 
 ## Additional settings
 
-In the `Bravo_PORT.py` file there are some configurations to be done:
+In the `Bravo_demo.py` file there are some configurations to be done:
 
  - `APN = ""` set it based on your mobile operator APN
 
@@ -50,9 +49,9 @@ In the `Bravo_PORT.py` file there are some configurations to be done:
 
 ## Execution
 
-To run the demo, execute the `Bravo_PORT.py` file
+To run the demo, execute the `Bravo_demo.py` file
 
-`./Bravo_PORT.py`
+`./Bravo_demo.py`
 
 it will automatically search the `settings.py` file (if needed any missing file among the required ones will be copied in the module) and the demo previously selected will be executed.
 
