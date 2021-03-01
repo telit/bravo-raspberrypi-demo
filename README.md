@@ -2,6 +2,10 @@
 
 A simple demonstrator showing communication between the Bravo board and a Raspberry Pi device
 
+## Prerequisites
+
+ - Please visit [Bravo Evaluation Kit page](https://www.telit.com/developer-zone/telit-bravo-evaluation-kit/) board and read *"Bravo Quick Start Guide"*. If you want to try the LwM2M demo or use Telit embedded connectivity SimWISE, please read also *"Bravo Getting Started OneEdge"*
+
 
 ## HW SETTINGS
 
@@ -17,9 +21,9 @@ A simple demonstrator showing communication between the Bravo board and a Raspbe
 
 ![datei](./CTS.PNG)
 
- - Insert a SIM card with PIN number disabled
+ - Insert a SIM card without PIN number inserted or use the SimWISE profile as explained in *"Bravo Getting Started OneEdge"*
 
- - Power ON the modem with the ON_OFF button on the Bravo Board
+ - Power on the modem with the power button on the Bravo Board (hold for 5 seconds approx)
 
 
 
@@ -42,9 +46,9 @@ A simple demonstrator showing communication between the Bravo board and a Raspbe
 
 In the `Bravo_demo.py` file there are some configurations to be done:
 
- - `APN = ""` set it based on your mobile operator APN
+ - `APN = ""` set it based on your mobile operator APN (for SimWISE please use "NXT17.NET")
 
- - Enable/disable the example you want to run between **"echo_demo"** or **"lwm2m_demo"** inside the `main` function
+ - Enable/disable the example you want to run between **"echo_demo"** or **"lwm2m_demo"** inside the `main` function. For lwm2m_demo ensure you've read the *"Bravo Getting Started OneEdge"* thoroughly
 
 
 ## Execution
