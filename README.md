@@ -6,6 +6,7 @@ A simple demonstrator showing communication between the Bravo board and a Raspbe
 
  - Please visit [Bravo Evaluation Kit page](https://www.telit.com/developer-zone/telit-bravo-evaluation-kit/) board and read *"Bravo Quick Start Guide"*. If you want to try the LwM2M demo or use Telit embedded connectivity SimWISE, please read also *"Bravo Getting Started OneEdge"*
 
+ - https://github.com/telit/bravo-at-sensors application must be running on Bravo Board ME910C1-WW device, allowing to leverage sensors through AT#BSENS custom command
 
 ## HW SETTINGS
 
